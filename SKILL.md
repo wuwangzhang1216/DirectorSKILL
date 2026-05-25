@@ -1,7 +1,7 @@
 ---
 name: cinematic-director
 # Keep the description specific so the host agent loads this skill only for film/video direction tasks.
-description: Converts scripts, prose, story ideas, or existing AI image/video assets into professional cinematic direction deliverables: script breakdowns, director's book notes, continuity bible, shot lists, storyboard/keyframe prompts, image-to-video motion prompts, tool-specific prompt adapters, and QC repair notes. Optionally applies a named director's style lens (Spielberg, Hitchcock, Kubrick, Kurosawa, Scorsese, Fellini, Bergman, Tarkovsky, Wong Kar-wai, Nolan) loaded from references/director_styles/ to override camera, lighting, editing, sound, and prompt defaults. Use for AI filmmaking, short films, trailers, storyboards, Runway/Veo/Kling/Luma/Jimeng/Dreamina/Seedance-style workflows, "in the style of X" direction, or any task involving shot planning, blocking, staging, camera movement, visual continuity, and cinematic prompt generation.
+description: Converts scripts, prose, story ideas, or existing AI image/video assets into professional cinematic direction deliverables: script breakdowns, director's book notes, continuity bible, shot lists, storyboard/keyframe prompts, image-to-video motion prompts, tool-specific prompt adapters, and QC repair notes. Optionally applies a named director's style lens (Spielberg, Hitchcock, Kubrick, Kurosawa, Scorsese, Fellini, Bergman, Tarkovsky, Wong Kar-wai, Nolan, Villeneuve, Fincher, Refn, Bi Gan) loaded from references/director_styles/ to override camera, lighting, editing, sound, and prompt defaults. Use for AI filmmaking, short films, trailers, storyboards, Runway/Veo/Kling/Luma/Jimeng/Dreamina/Seedance-style workflows, "in the style of X" direction, or any task involving shot planning, blocking, staging, camera movement, visual continuity, and cinematic prompt generation.
 license: MIT
 metadata:
   version: "1.0.0"
@@ -41,7 +41,7 @@ Use this skill when the user asks for any of the following:
 - Design a director-style workflow for Runway, Veo, Kling, Luma, 即梦/Dreamina, Seedance, Wanxiang, or similar tools.
 - Analyze existing character/location assets and decide what shots should be generated next.
 - Create a “director agent,” “director skill,” “cinematic prompt skill,” “AI video workflow,” or “film production agent.”
-- Treat a scene “in the style of” a named director (Spielberg, Hitchcock, Kubrick, Kurosawa, Scorsese, Fellini, Bergman, Tarkovsky, Wong Kar-wai, Nolan) — load the matching lens from `references/director_styles/`.
+- Treat a scene “in the style of” a named director (Spielberg, Hitchcock, Kubrick, Kurosawa, Scorsese, Fellini, Bergman, Tarkovsky, Wong Kar-wai, Nolan, Villeneuve, Fincher, Refn, Bi Gan) — load the matching lens from `references/director_styles/`.
 
 ## Required inputs to extract
 
@@ -56,7 +56,7 @@ project:
   target_duration: seconds or minutes
   aspect_ratio: 16:9 | 9:16 | 4:3 | 1:1 | unknown
   target_tool: Runway | Veo | Kling | Luma | Jimeng/Dreamina | Seedance | Wanxiang | other | unknown
-  director_style: spielberg | hitchcock | kubrick | kurosawa | scorsese | fellini | bergman | tarkovsky | wong_kar_wai | nolan | none
+  director_style: spielberg | hitchcock | kubrick | kurosawa | scorsese | fellini | bergman | tarkovsky | wong_kar_wai | nolan | villeneuve | fincher | refn | bi_gan | none
 source:
   text: script/prose/brief
   genre: horror | drama | thriller | comedy | documentary | etc.
@@ -112,7 +112,7 @@ If the user names a director or asks for "in the style of X", load the matching 
 
 Pick exactly one style. Mixing two directors produces incoherent output. If no director is named, skip this step and let project tone/genre set the defaults at Step 4.
 
-Available styles: spielberg, hitchcock, kubrick, kurosawa, scorsese, fellini, bergman, tarkovsky, wong_kar_wai, nolan.
+Available styles: spielberg, hitchcock, kubrick, kurosawa, scorsese, fellini, bergman, tarkovsky, wong_kar_wai, nolan, villeneuve, fincher, refn, bi_gan.
 
 Style rule: these modules describe high-level methods only. Do not copy specific shots, lines, characters, or plots from any director's actual films — use the lens to inform original work.
 

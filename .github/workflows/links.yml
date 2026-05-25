@@ -1,0 +1,22 @@
+name: links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+      - ".github/workflows/links.yml"
+  pull_request:
+    paths:
+      - "**.md"
+      - ".github/workflows/links.yml"
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --verbose "**/*.md"
+          fail: true

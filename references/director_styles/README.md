@@ -20,6 +20,10 @@ These are **reference modules**, not standalone skills. They do not get loaded b
 | [08_tarkovsky.md](08_tarkovsky.md) | Andrei Tarkovsky 塔可夫斯基 | Poetic time, long takes, water and fire, spiritual search |
 | [09_wong_kar_wai.md](09_wong_kar_wai.md) | Wong Kar-wai 王家卫 | Urban loneliness, missed connections, neon, fragmented memory, voice-over |
 | [10_nolan.md](10_nolan.md) | Christopher Nolan 诺兰 | High-concept structure, time puzzles, IMAX-scale practical spectacle |
+| [11_villeneuve.md](11_villeneuve.md) | Denis Villeneuve 维伦纽瓦 | Monumental scale, mist, geometric symmetry, low-rumble silence |
+| [12_fincher.md](12_fincher.md) | David Fincher 芬奇 | Surgical control, teal-amber palette, procedural investigation, restrained dread |
+| [13_refn.md](13_refn.md) | Nicolas Winding Refn 雷弗恩 | Neon color blocks, symmetric ritual framing, slow gaze, sudden violence |
+| [14_bi_gan.md](14_bi_gan.md) | Bi Gan 毕赣 | Misty SW-China small towns, single ultra-long take, dream-memory loops, poetic voice-over |
 
 ## How the main skill uses these
 

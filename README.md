@@ -126,6 +126,10 @@ The skill runs the QC diagnostic order (asset mismatch → prompt overload → w
 | 08 | Andrei Tarkovsky 塔可夫斯基 | Poetic time, long takes, water and fire, spiritual search |
 | 09 | Wong Kar-wai 王家卫 | Urban loneliness, missed connections, neon, fragmented memory |
 | 10 | Christopher Nolan 诺兰 | High-concept structure, time puzzles, IMAX-scale practical spectacle |
+| 11 | Denis Villeneuve 维伦纽瓦 | Monumental scale, mist, geometric symmetry, low-rumble silence |
+| 12 | David Fincher 芬奇 | Surgical control, teal-amber palette, procedural investigation, restrained dread |
+| 13 | Nicolas Winding Refn 雷弗恩 | Neon color blocks, symmetric ritual framing, slow gaze, sudden violence |
+| 14 | Bi Gan 毕赣 | Misty SW-China small towns, single ultra-long take, dream-memory loops, poetic voice-over |
 
 Each style file follows the same 9-section structure (适用场景 / 核心风格关键词 / 叙事方法 / 镜头语言 / 灯光与色彩 / 剪辑节奏 / 声音与音乐 / 人物与表演 / 可迁移拍摄清单 / 提示词模板), so adding an 11th director is a single new file plus one row in `references/director_styles/README.md`.
 
@@ -178,7 +182,11 @@ cinematic-director/
 │       ├── 07_bergman.md
 │       ├── 08_tarkovsky.md
 │       ├── 09_wong_kar_wai.md
-│       └── 10_nolan.md
+│       ├── 10_nolan.md
+│       ├── 11_villeneuve.md
+│       ├── 12_fincher.md
+│       ├── 13_refn.md
+│       └── 14_bi_gan.md
 ├── assets/                               # Reusable templates the skill fills in
 │   ├── shot-plan-template.md
 │   ├── keyframe-prompt-template.md
@@ -317,6 +325,10 @@ skill 按 QC 诊断顺序（资产不一致 → 提示词超载 → 动作太弱
 | 08 | Andrei Tarkovsky 塔可夫斯基 | 诗意时间、长镜头、水与火、精神探索 |
 | 09 | Wong Kar-wai 王家卫 | 都市孤独、错过、霓虹、碎片记忆、旁白 |
 | 10 | Christopher Nolan 诺兰 | 高概念结构、时间谜题、IMAX 级实拍奇观 |
+| 11 | Denis Villeneuve 维伦纽瓦 | 宏大尺度、雾霭、几何对称、低频轰鸣的寂静 |
+| 12 | David Fincher 芬奇 | 外科手术级控制、青绿琥珀调色、程序化调查、克制式恐惧 |
+| 13 | Nicolas Winding Refn 雷弗恩 | 霓虹色块、对称仪式构图、缓慢凝视、突发暴力 |
+| 14 | Bi Gan 毕赣 | 西南雾镇、超长长镜头、梦境记忆循环、诗歌旁白 |
 
 每个风格文件都遵循统一的 9 节结构（适用场景 / 核心风格关键词 / 叙事方法 / 镜头语言 / 灯光与色彩 / 剪辑节奏 / 声音与音乐 / 人物与表演 / 可迁移拍摄清单 / 提示词模板），所以加第 11 位导演只需新建一个文件，外加在 `references/director_styles/README.md` 加一行。
 

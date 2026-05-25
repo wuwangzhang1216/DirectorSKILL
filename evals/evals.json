@@ -33,6 +33,50 @@
         "The revised prompt avoids too many simultaneous actions.",
         "The output includes a QC or repair note."
       ]
+    },
+    {
+      "id": "kubrick-style-corporate-office",
+      "prompt": "Direct a 15-second opening in the style of Kubrick: a corporate CEO walks down a glass office corridor toward a glass meeting room where a board is waiting.",
+      "expected_output": "A shot plan and a prompt that demonstrably applies Kubrick-style overrides — symmetric centered composition, one-point perspective down the corridor, locked or slow-dolly camera, cold formal lighting, restrained editing.",
+      "assertions": [
+        "The output uses symmetric centered composition or one-point perspective.",
+        "The camera move is locked or a slow pure dolly (not handheld, not orbiting).",
+        "The lighting and color logic is cold, controlled, and formal.",
+        "The output does not copy specific shots, characters, or dialogue from any actual Kubrick film."
+      ]
+    },
+    {
+      "id": "wong-kar-wai-style-rain-street",
+      "prompt": "Same image keyframe as rain-street-image-to-video, but direct it in the style of Wong Kar-wai.",
+      "expected_output": "An image-to-video prompt whose camera, color, pacing, and sound choices visibly differ from the unstyled version — handheld or narrow framing, neon practicals, slow-motion or step-print on a single beat, optional voice-over, missed-connection register.",
+      "assertions": [
+        "The output uses handheld feel or a narrow frame-within-frame composition.",
+        "Color/lighting includes neon practicals or wet reflective surfaces.",
+        "There is a slow-motion, step-print, or time-distorted beat.",
+        "The output does not copy specific shots, characters, or dialogue from any actual Wong Kar-wai film."
+      ]
+    },
+    {
+      "id": "villeneuve-style-desert-encounter",
+      "prompt": "Direct a 10-second shot in the style of Villeneuve: a single figure in a long coat walks toward a half-buried monolithic structure across an orange-fog desert.",
+      "expected_output": "A prompt with monumental scale contrast, geometric framing, slow horizontal or push movement, monochrome orange dust palette, low-frequency rumble in the sound brief, and restrained / no dialogue.",
+      "assertions": [
+        "The output establishes a scale contrast between the figure and the structure.",
+        "The camera move is slow and geometric (lateral, push, or locked), not handheld or kinetic.",
+        "The color is a single dominant palette dominated by dust/fog atmosphere.",
+        "The sound brief mentions low-frequency rumble or sustained tones and minimal dialogue."
+      ]
+    },
+    {
+      "id": "bi-gan-style-small-town-walk",
+      "prompt": "Direct a single long-take in the style of Bi Gan: a young man walks through a misty Southwest-China small town at night, past a pool hall, a karaoke bar, and a bridge tunnel, looking for someone.",
+      "expected_output": "A continuous-long-take shot description with wet neon practicals, low-saturation humid palette, optional poetic voice-over, cassette-era pop sound texture, and a dream/memory ambiguous ending.",
+      "assertions": [
+        "The output is structured as one continuous long take (not a cut shot list).",
+        "Lighting uses wet reflections and mixed neon/incandescent practicals.",
+        "The sound brief mentions cassette-era pop, ambient rain/drip, or a poetic voice-over.",
+        "The ending is ambiguous between memory and reality rather than a clean resolution."
+      ]
     }
   ]
 }
