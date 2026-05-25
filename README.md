@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Claude Skill](https://img.shields.io/badge/Claude_Skill-cinematic--director-blue)
-![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Version](https://img.shields.io/badge/version-1.1.0-green)
+[![markdownlint](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml)
+[![links](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml)
 
 A Claude Code / Claude Agent skill that turns a script, prose, or a single keyframe into a complete cinematic production plan — beats, director's book, blocking, shot list, keyframe prompts, AI video motion prompts, tool-specific adapters, and a QC repair loop. Optionally apply one of ten director-style overlays (Spielberg, Hitchcock, Kubrick, Kurosawa, Scorsese, Fellini, Bergman, Tarkovsky, Wong Kar-wai, Nolan) as a coherent lens over the entire workflow.
 
@@ -221,7 +223,9 @@ The MIT grant covers the skill files (SKILL.md, references, assets, templates). 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Claude Skill](https://img.shields.io/badge/Claude_Skill-cinematic--director-blue)
-![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Version](https://img.shields.io/badge/version-1.1.0-green)
+[![markdownlint](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml)
+[![links](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml)
 
 一个 Claude Code / Claude Agent skill：把剧本、散文或一张关键帧，转化为完整的电影化制作方案——节拍图、导演书、走位、分镜表、关键帧提示词、AI 视频动作提示词、工具专属适配器、QC 修复流程。可选择叠加十位导演（斯皮尔伯格、希区柯克、库布里克、黑泽明、斯科塞斯、费里尼、伯格曼、塔可夫斯基、王家卫、诺兰）中任一位的风格作为整套流程的统一镜头语言。
 
