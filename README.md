@@ -33,7 +33,7 @@ This skill replaces adjective soup with **directorial reasoning**:
 
 ## Architecture
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │  SKILL.md  (main pipeline)                                      │
 │                                                                 │
@@ -161,7 +161,7 @@ The skill picks the right output shape based on the request. Modes can be combin
 
 ## Repository structure
 
-```
+```text
 cinematic-director/
 ├── SKILL.md                              # Main pipeline (10 steps, 6 output modes)
 ├── README.md                             # This file
@@ -248,7 +248,7 @@ The MIT grant covers the skill files (SKILL.md, references, assets, templates). 
 
 ## 架构
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │  SKILL.md  （主流水线）                                          │
 │                                                                 │
