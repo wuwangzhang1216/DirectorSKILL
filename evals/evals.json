@@ -1,0 +1,38 @@
+{
+  "skill_name": "cinematic-director",
+  "evals": [
+    {
+      "id": "rain-street-image-to-video",
+      "prompt": "I have a keyframe of a Republican-era Chinese man in a crimson opera robe kneeling in a rainy old street. Write an image-to-video prompt that makes the scene move without changing identity.",
+      "expected_output": "A concise image-to-video prompt with camera behavior, start state, one primary subject action, environmental rain/mud motion, clear end state, and continuity constraints.",
+      "assertions": [
+        "The output includes a start state and end state.",
+        "The output uses one dominant camera movement.",
+        "The output mentions preserving face/costume/location/lighting.",
+        "The output avoids modern objects/text/watermark."
+      ]
+    },
+    {
+      "id": "literary-scene-shot-plan",
+      "prompt": "Turn Lu Xun's short prose scene about a teacher explaining '立论' into a 30-second black-and-white film shot list.",
+      "expected_output": "A shot table based on beats and subtext, with visual thesis, shot functions, blocking, camera, lighting, continuity anchors, and AI generation notes.",
+      "assertions": [
+        "The output identifies the subtext or dramatic core.",
+        "Each shot has a story function.",
+        "The table includes blocking/action and camera movement.",
+        "The tone preserves satire rather than generic horror spectacle."
+      ]
+    },
+    {
+      "id": "failed-video-repair",
+      "prompt": "My AI video looks like a slideshow and the character never actually falls. Diagnose and rewrite the prompt.",
+      "expected_output": "A failure diagnosis and revised prompt that simplifies the shot, creates visible falling mechanics, and defines start-motion-end states.",
+      "assertions": [
+        "The output explains why the previous prompt likely failed.",
+        "The revised prompt contains visible body mechanics.",
+        "The revised prompt avoids too many simultaneous actions.",
+        "The output includes a QC or repair note."
+      ]
+    }
+  ]
+}
