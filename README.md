@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Claude Skill](https://img.shields.io/badge/Claude_Skill-cinematic--director-blue)
-![Version](https://img.shields.io/badge/version-1.1.0-green)
+![Version](https://img.shields.io/badge/version-1.2.0-green)
 [![markdownlint](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml)
 [![links](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml)
 
@@ -133,7 +133,9 @@ The skill runs the QC diagnostic order (asset mismatch → prompt overload → w
 | 13 | Nicolas Winding Refn 雷弗恩 | Neon color blocks, symmetric ritual framing, slow gaze, sudden violence |
 | 14 | Bi Gan 毕赣 | Misty SW-China small towns, single ultra-long take, dream-memory loops, poetic voice-over |
 
-Each style file follows the same 9-section structure (适用场景 / 核心风格关键词 / 叙事方法 / 镜头语言 / 灯光与色彩 / 剪辑节奏 / 声音与音乐 / 人物与表演 / 可迁移拍摄清单 / 提示词模板), so adding an 11th director is a single new file plus one row in `references/director_styles/README.md`.
+Each style file follows the same 9-section structure (适用场景 / 核心风格关键词 / 叙事方法 / 镜头语言 / 灯光与色彩 / 剪辑节奏 / 声音与音乐 / 人物与表演 / 可迁移拍摄清单 / 提示词模板), so adding the next director is a single new file plus a few small registrations — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+**See it in action.** [`references/director_styles/example_comparisons.md`](references/director_styles/example_comparisons.md) takes one scene (a man with a wilted bouquet at an apartment door) and renders it four times under Spielberg, Kubrick, Wong Kar-wai, and Bi Gan. Same character, same dramatic question, four lenses — the cleanest way to feel what a style overlay actually changes.
 
 ## AI video tool adapters
 
@@ -167,6 +169,8 @@ The skill picks the right output shape based on the request. Modes can be combin
 cinematic-director/
 ├── SKILL.md                              # Main pipeline (10 steps, 6 output modes)
 ├── README.md                             # This file
+├── CONTRIBUTING.md                       # How to add directors / tool adapters / evals
+├── CHANGELOG.md                          # Release history
 ├── LICENSE                               # MIT
 ├── .gitignore
 ├── references/
@@ -188,7 +192,8 @@ cinematic-director/
 │       ├── 11_villeneuve.md
 │       ├── 12_fincher.md
 │       ├── 13_refn.md
-│       └── 14_bi_gan.md
+│       ├── 14_bi_gan.md
+│       └── example_comparisons.md        # One scene × 4 director styles
 ├── assets/                               # Reusable templates the skill fills in
 │   ├── shot-plan-template.md
 │   ├── keyframe-prompt-template.md
@@ -204,6 +209,8 @@ cinematic-director/
 - **Add an AI video tool**: append an adapter block to `references/ai-video-tool-adapters.md`. The main pipeline auto-references the file at Step 9.
 - **Add an output mode**: extend `SKILL.md` "Output modes" section and (optionally) drop a template in `assets/`.
 - **Add an eval**: append a case to `evals/evals.json`.
+
+For the full contributor guide (project layout, copyright-safety rule, doc conventions, PR checklist) see [CONTRIBUTING.md](CONTRIBUTING.md). Release history is in [CHANGELOG.md](CHANGELOG.md).
 
 ## Usage rule and disclaimer
 
@@ -223,7 +230,7 @@ The MIT grant covers the skill files (SKILL.md, references, assets, templates). 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Claude Skill](https://img.shields.io/badge/Claude_Skill-cinematic--director-blue)
-![Version](https://img.shields.io/badge/version-1.1.0-green)
+![Version](https://img.shields.io/badge/version-1.2.0-green)
 [![markdownlint](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/markdownlint.yml)
 [![links](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml/badge.svg)](https://github.com/wuwangzhang1216/DirectorSKILL/actions/workflows/links.yml)
 
@@ -334,7 +341,9 @@ skill 按 QC 诊断顺序（资产不一致 → 提示词超载 → 动作太弱
 | 13 | Nicolas Winding Refn 雷弗恩 | 霓虹色块、对称仪式构图、缓慢凝视、突发暴力 |
 | 14 | Bi Gan 毕赣 | 西南雾镇、超长长镜头、梦境记忆循环、诗歌旁白 |
 
-每个风格文件都遵循统一的 9 节结构（适用场景 / 核心风格关键词 / 叙事方法 / 镜头语言 / 灯光与色彩 / 剪辑节奏 / 声音与音乐 / 人物与表演 / 可迁移拍摄清单 / 提示词模板），所以加第 11 位导演只需新建一个文件，外加在 `references/director_styles/README.md` 加一行。
+每个风格文件都遵循统一的 9 节结构（适用场景 / 核心风格关键词 / 叙事方法 / 镜头语言 / 灯光与色彩 / 剪辑节奏 / 声音与音乐 / 人物与表演 / 可迁移拍摄清单 / 提示词模板），所以加下一位导演只需新建一个文件加几处小登记——见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+**看实际效果**：[`references/director_styles/example_comparisons.md`](references/director_styles/example_comparisons.md) 把同一场戏（一个男人拿着枯萎花束站在公寓门口）用斯皮尔伯格、库布里克、王家卫、毕赣四种风格分别处理。同样的人物、同样的戏剧问题、四种镜头——这是最直观感受"风格 overlay 到底改变了什么"的方法。
 
 ## AI 视频工具适配器
 
@@ -368,6 +377,8 @@ skill 会根据请求选择合适的输出形态，模式可组合：
 - **加 AI 视频工具**：在 `references/ai-video-tool-adapters.md` 追加一段适配器。主流水线 Step 9 自动引用该文件。
 - **加输出模式**：扩展 `SKILL.md` 的"Output modes"小节，可选地在 `assets/` 加模板。
 - **加 eval**：在 `evals/evals.json` 追加用例。
+
+完整贡献指南（项目结构、版权安全规则、文档规范、PR checklist）见 [CONTRIBUTING.md](CONTRIBUTING.md)。发布历史见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 使用规则与免责声明
 

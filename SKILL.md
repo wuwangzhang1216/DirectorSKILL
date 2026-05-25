@@ -4,7 +4,7 @@ name: cinematic-director
 description: Converts scripts, prose, story ideas, or existing AI image/video assets into professional cinematic direction deliverables: script breakdowns, director's book notes, continuity bible, shot lists, storyboard/keyframe prompts, image-to-video motion prompts, tool-specific prompt adapters, and QC repair notes. Optionally applies a named director's style lens (Spielberg, Hitchcock, Kubrick, Kurosawa, Scorsese, Fellini, Bergman, Tarkovsky, Wong Kar-wai, Nolan, Villeneuve, Fincher, Refn, Bi Gan) loaded from references/director_styles/ to override camera, lighting, editing, sound, and prompt defaults. Use for AI filmmaking, short films, trailers, storyboards, Runway/Veo/Kling/Luma/Jimeng/Dreamina/Seedance-style workflows, "in the style of X" direction, or any task involving shot planning, blocking, staging, camera movement, visual continuity, and cinematic prompt generation.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: "wangzhang-wu"
 ---
 

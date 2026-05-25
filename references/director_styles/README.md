@@ -25,6 +25,10 @@ These are **reference modules**, not standalone skills. They do not get loaded b
 | [13_refn.md](13_refn.md) | Nicolas Winding Refn 雷弗恩 | Neon color blocks, symmetric ritual framing, slow gaze, sudden violence |
 | [14_bi_gan.md](14_bi_gan.md) | Bi Gan 毕赣 | Misty SW-China small towns, single ultra-long take, dream-memory loops, poetic voice-over |
 
+## See it in action
+
+[example_comparisons.md](example_comparisons.md) takes a single scene — a man with a wilted bouquet at an apartment door — and treats it four times: Spielberg, Kubrick, Wong Kar-wai, and Bi Gan. Same character, same dramatic question, four lenses. Useful when deciding which overlay fits a project, or when explaining what "style overlay" concretely means.
+
 ## How the main skill uses these
 
 1. The user names a director or asks for "in the style of X" — or supplies one via `project.director_style` in the input schema.
