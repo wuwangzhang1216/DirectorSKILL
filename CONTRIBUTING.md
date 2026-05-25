@@ -166,7 +166,7 @@ Before opening a PR:
 
 ## Reporting issues
 
-Issues live at https://github.com/wuwangzhang1216/DirectorSKILL/issues. Useful issue types:
+Issues live at <https://github.com/wuwangzhang1216/DirectorSKILL/issues>. Useful issue types:
 
 - "The skill produces X when I expect Y" — include the prompt and the (problematic) output
 - "Style overlay for director X is too generic / too derivative" — include a paragraph of what's off
@@ -235,7 +235,7 @@ Issues live at https://github.com/wuwangzhang1216/DirectorSKILL/issues. Useful i
 
 ## 报 issue
 
-issue 见 https://github.com/wuwangzhang1216/DirectorSKILL/issues 。常见类型：
+issue 见 <https://github.com/wuwangzhang1216/DirectorSKILL/issues> 。常见类型：
 
 - "skill 输出 X 而我期待 Y"：附上 prompt 和（有问题的）输出
 - "导演 X 的风格模块太泛/太抄"：写一段说明问题

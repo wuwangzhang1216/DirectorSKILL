@@ -23,7 +23,8 @@ What differs is the **lens** — and the lens changes everything downstream.
 
 **Visual thesis** — An ordinary man carrying a small emotional weight, seen with warmth before the reveal.
 
-**Beats**
+#### Beats
+
 1. Wide low-angle of him at the end of a warm corridor (we see the scale of his walk).
 2. Push-in on his face as he raises and lowers his hand (reaction first, before we know why).
 3. Over-shoulder of his hand reaching, bouquet visible in the foreground.
@@ -35,7 +36,7 @@ What differs is the **lens** — and the lens changes everything downstream.
 
 **Sound** — muted footsteps; distant TV from a neighbor's door; a single melodic motif on strings that swells as his hand reaches.
 
-**Sample image-to-video prompt**
+#### Sample image-to-video prompt
 
 ```text
 Warm-light apartment corridor at dusk, locked camera with a slow push-in on the man's face. He starts holding a wilted bouquet at chest height, raises his right hand toward the door, lowers it again, then knocks twice. Golden window light at the far end of the corridor softens the air. End on his held breath after the second knock. Maintain his face, the muted brown coat, the bouquet's wilted petals, and the warm corridor light. No extra people, no modern technology, no text, no watermark.
@@ -47,7 +48,8 @@ Warm-light apartment corridor at dusk, locked camera with a slow push-in on the 
 
 **Visual thesis** — A small human ritual performed inside an indifferent geometric corridor.
 
-**Beats**
+#### Beats
+
 1. Dead-center symmetrical wide of the corridor; he stands at the far end.
 2. Slow mechanical dolly-in (constant speed, no acceleration) until he is medium-framed.
 3. Overhead insert of his shoes centered on the tile pattern.
@@ -59,7 +61,7 @@ Warm-light apartment corridor at dusk, locked camera with a slow push-in on the 
 
 **Sound** — fluorescent hum; the rhythmic squeak of his shoes on tile; two flat, evenly spaced knocks; no music.
 
-**Sample image-to-video prompt**
+#### Sample image-to-video prompt
 
 ```text
 Locked camera, dead-center symmetric composition, one-point perspective down a fluorescent-lit gray apartment corridor. The man begins standing precisely at the end of the corridor holding a wilted bouquet, then a slow pure-dolly push-in begins at constant speed and continues throughout. He raises his hand, lowers it once, then knocks exactly twice, evenly spaced. End at medium frame, still locked, no reaction. Maintain the cold fluorescent palette, the geometric tile pattern, the man's face, the bouquet. No camera shake, no orbit, no warm light spill.
@@ -71,7 +73,8 @@ Locked camera, dead-center symmetric composition, one-point perspective down a f
 
 **Visual thesis** — A small "almost" between two people who may not actually meet.
 
-**Beats**
+#### Beats
+
 1. Handheld narrow frame through the corridor's window arch, neon sign visible outside.
 2. Slow-motion of his hand rising toward the door — held for almost the full clip.
 3. Voice-over (his thought) overlays the slowed gesture.
@@ -83,7 +86,7 @@ Locked camera, dead-center symmetric composition, one-point perspective down a f
 
 **Sound** — a Mandarin pop song from inside another apartment; ambient rain on the far side of the building; voice-over begins before the gesture and continues past the knock.
 
-**Sample image-to-video prompt**
+#### Sample image-to-video prompt
 
 ```text
 Handheld, narrow corridor framed through a window mullion at dusk. Pink and green neon from a sign outside throws color onto wet reflective floor. The man begins with bouquet at his side, lifts his hand toward the door in slow motion — step-print feel, almost a full hold — then on the last beat the motion returns to normal speed and he knocks twice. End on the second knock with the neon flickering once. Maintain his face, the wilted bouquet, the neon palette, the wet floor reflections. No extra people in the corridor, no modern phone or screen visible, no text, no watermark.
@@ -95,7 +98,8 @@ Handheld, narrow corridor framed through a window mullion at dusk. Pink and gree
 
 **Visual thesis** — A memory looking for its own origin; the corridor is the inside of someone's head.
 
-**Beats**
+#### Beats
+
 1. Long take starts on a wet street outside the building, camera floats forward.
 2. Through the lobby, into the stairwell (flickering tube light, peeling posters).
 3. Up the stairs in real time; we hear distant transistor radio from somewhere.
@@ -107,7 +111,7 @@ Handheld, narrow corridor framed through a window mullion at dusk. Pink and gree
 
 **Sound** — distant rain; footsteps; a transistor radio playing an old song one floor below; a poetic voice-over that does not match the visible action — it speaks of someone else, somewhere else, at a different time.
 
-**Sample image-to-video prompt** (this style usually wants a longer clip than 10–12s; if the tool supports it, give it 30s+)
+#### Sample image-to-video prompt (long clip — give it 30s+ if the tool supports it)
 
 ```text
 One continuous handheld long take. Begin on a wet asphalt street at dusk, camera floats forward toward the lit lobby of a small apartment building. Without cut, pass through the lobby and enter the stairwell — flickering fluorescent tube, peeling posters, faint sound of an old Mandarin song from a transistor radio one floor up. Climb in real time to the 6th floor. The man with the wilted bouquet is already at the door; he raises his hand, lowers it once, then knocks twice. A quiet poetic voice-over runs throughout, speaking of a different person and a different rain. End on the door, just before any answer. Maintain the man's face, the bouquet, the humid low-saturation palette, the wet reflections. No cut, no jump, no modern screens, no text.
